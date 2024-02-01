@@ -1,20 +1,20 @@
-# Утилита WordCount
+# WordCount utility
 
-Утилита WordCount - подсчитывает количество строк, слов, букв и байт для указанного файла и выводит эту информацию в поток вывода.
+WordCount utility - counts the number of lines, words, letters and bytes for a specified file and outputs this information to the output stream.
 
-Программа поддерживает следующие опции:
+The program supports the following options:
 
-**-l, --lines** вывод только количества строк
+**-l, --lines** output only the number of lines
 
-**-c, --bytes** вывод размера файла в байтах
+**-c, --bytes** output file size in bytes
 
-**-w, --words** вывод количества слов
+**-w, --words** output the number of words
 
-**-m, –chars** вывод количества букв
+**-m, --chars** output the number of letters.
 
-Название файла и опции передаются через аргументы командной строки в следующем формате:
+The file name and options are passed through command line arguments in the following format:
 
-_**WordCont.exe [OPTION] filename [filename,.....]**_
+_**./WordCont [OPTION] filename [filename,.....]**_
 
-Формат вывода (без заданных опций):
+Output format (without options specified):
   lines words bytes filename
